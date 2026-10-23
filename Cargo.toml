@@ -1,0 +1,12 @@
+[package]
+name = "soundpulse"
+version = "1.0.0-dev"
+edition = "2024"
+description = "Modern way to create multiple audio tracks to control the volume of ur programs."
+license = "GPL-3.0-or-later"
+
+[dependencies]
+json = "0.12.4"
+pipewire = "0.10.1"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
